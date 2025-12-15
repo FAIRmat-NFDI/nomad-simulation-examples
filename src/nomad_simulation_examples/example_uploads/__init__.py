@@ -3,7 +3,7 @@
 from nomad.config.models.plugins import ExampleUploadEntryPoint
 
 orca_examples = ExampleUploadEntryPoint(
-    title="ORCA: small molecular tests",
+    title="ORCA: quantum chemistry",
     category="Simulation examples",
     description=(
         "Example ORCA calculations for testing NOMAD parser and schema integration."
@@ -12,7 +12,7 @@ orca_examples = ExampleUploadEntryPoint(
 )
 
 gromacs_examples = ExampleUploadEntryPoint(
-    title="GROMACS: MD test systems",
+    title="GROMACS: molecular dynamics",
     category="Simulation examples",
     description=(
         "Example GROMACS MD setups for testing topology, trajectories, and MD workflows."
@@ -21,7 +21,7 @@ gromacs_examples = ExampleUploadEntryPoint(
 )
 
 vasp_examples = ExampleUploadEntryPoint(
-    title="VASP: DFT bulk and surfaces",
+    title="VASP: solid state DFT",
     category="Simulation examples",
     description=(
         "Example VASP calculations for testing DFT workflows and parsing functionality."
