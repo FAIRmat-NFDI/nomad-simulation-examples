@@ -2,24 +2,6 @@
 
 from nomad.config.models.plugins import ExampleUploadEntryPoint
 
-gromacs_examples = ExampleUploadEntryPoint(
-    title="GROMACS: MD test systems",
-    category="Simulation examples",
-    description=(
-        "Example GROMACS MD setups for testing topology, trajectories, and MD workflows."
-    ),
-    resources=["example_uploads/gromacs/*"],
-)
-
-lammps_examples = ExampleUploadEntryPoint(
-    title="LAMMPS: MD test systems",
-    category="Simulation examples",
-    description=(
-        "Example LAMMPS MD setups for testing topology, trajectories, and MD workflows."
-    ),
-    resources=["example_uploads/lammps/*"],
-)
-
 orca_examples = ExampleUploadEntryPoint(
     title="ORCA: small molecular tests",
     category="Simulation examples",
@@ -27,6 +9,15 @@ orca_examples = ExampleUploadEntryPoint(
         "Example ORCA calculations for testing NOMAD parser and schema integration."
     ),
     resources=["example_uploads/orca/*"],
+)
+
+gromacs_examples = ExampleUploadEntryPoint(
+    title="GROMACS: MD test systems",
+    category="Simulation examples",
+    description=(
+        "Example GROMACS MD setups for testing topology, trajectories, and MD workflows."
+    ),
+    resources=["example_uploads/gromacs/*"],
 )
 
 vasp_examples = ExampleUploadEntryPoint(
@@ -39,7 +30,7 @@ vasp_examples = ExampleUploadEntryPoint(
 )
 
 __all__ = [
+    "orca_examples",
     "gromacs_examples",
-    "lammps_examples" "orca_examples",
     "vasp_examples",
 ]

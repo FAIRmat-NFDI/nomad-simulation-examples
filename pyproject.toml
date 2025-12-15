@@ -13,9 +13,8 @@ dependencies = [
 ]
 
 [project.entry-points."nomad.plugin"]
-example_gromacs = "nomad_simulation_examples.example_uploads:gromacs_examples"
-example_lammps = "nomad_simulation_examples.example_uploads:lammps_examples"
 example_orca = "nomad_simulation_examples.example_uploads:orca_examples"
+example_gromacs = "nomad_simulation_examples.example_uploads:gromacs_examples"
 example_vasp = "nomad_simulation_examples.example_uploads:vasp_examples"
 
 [tool.setuptools]
