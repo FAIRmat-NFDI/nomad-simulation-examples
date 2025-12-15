@@ -1,0 +1,13 @@
+{
+  "entry_id": "-1AUjJdPvmxdocFL1tylbWbf9yxK",
+  "upload_id": "nqaShAN2Tla67I_Y-giakQ",
+  "mainfile": "Chago/OUTCAR1233.bz2",
+  "main_author": "Mian Dai",
+  "system": "bulk",
+  "structural_type": "bulk",
+  "workflow_name": "single_point",
+  "method_name": "DFT",
+  "available_properties": [],
+  "processed": true,
+  "processing_errors": []
+}

@@ -1,0 +1,18 @@
+{
+  "entry_id": "-11vT31uIGScdXC_sj-wmGiO_T6v",
+  "upload_id": "2d7yTFQaTEGXGyjAsC2PDQ",
+  "mainfile": "Te/15/39/vasprun.xml",
+  "main_author": "Yunzhe Wang",
+  "system": "molecule / cluster",
+  "structural_type": "molecule / cluster",
+  "workflow_name": [
+    "geometry_optimization"
+  ],
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic",
+    "geometry_optimization"
+  ],
+  "processed": true,
+  "processing_errors": []
+}

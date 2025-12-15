@@ -1,0 +1,17 @@
+{
+  "entry_id": "--a3pBgFgJKssurzBIfSSMy3gCwo",
+  "upload_id": "pc2WvLSkTeC3DuwR6UgA9A",
+  "mainfile": "36-3-4ele-DFT88/Sb_Bi_Se_Te-DFT/vasprun.xml",
+  "main_author": "Guohua Cao",
+  "system": "bulk",
+  "structural_type": "bulk",
+  "workflow_name": [
+    "single_point"
+  ],
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic"
+  ],
+  "processed": true,
+  "processing_errors": []
+}

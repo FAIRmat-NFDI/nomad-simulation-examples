@@ -1,0 +1,17 @@
+{
+  "entry_id": "--LPV_SHTFhbJzXPsdoodtyy_3kd",
+  "upload_id": "znPPritbRzaTe_FqQlvsdg",
+  "mainfile": "train_batch_2/crystal_Al_stable_sheared_C44_-0.8/OUTCAR",
+  "main_author": "Antoni Wadowski",
+  "system": "bulk",
+  "structural_type": "bulk",
+  "workflow_name": "GeometryOptimization",
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic",
+    "dos_electronic_new",
+    "geometry_optimization"
+  ],
+  "processed": true,
+  "processing_errors": []
+}

@@ -1,0 +1,16 @@
+{
+  "entry_id": "--ntx7QdLsXNAUzh3lmOeyGaT1z9",
+  "upload_id": "eK1Kib5nSVWtTxMyHSolLA",
+  "mainfile": "set1_Romain/N2/Au/PtAu/vasprun.xml",
+  "main_author": "Julia Schumann",
+  "system": "surface",
+  "structural_type": "surface",
+  "workflow_name": "GeometryOptimization",
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic_new",
+    "geometry_optimization"
+  ],
+  "processed": true,
+  "processing_errors": []
+}

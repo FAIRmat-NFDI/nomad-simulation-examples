@@ -1,0 +1,15 @@
+{
+  "entry_id": "-0ESCoI0YdqM-7KoZvMhW6aVy8_J",
+  "upload_id": "882l3VRFRY2rQ2xXIhj-aA",
+  "mainfile": "111_a1_top1/150/0/4/OUTCAR.bz2",
+  "main_author": "Stephan Steinmann",
+  "system": "unavailable",
+  "structural_type": "unavailable",
+  "workflow_name": [
+    "single_point"
+  ],
+  "method_name": "DFT",
+  "available_properties": [],
+  "processed": true,
+  "processing_errors": []
+}

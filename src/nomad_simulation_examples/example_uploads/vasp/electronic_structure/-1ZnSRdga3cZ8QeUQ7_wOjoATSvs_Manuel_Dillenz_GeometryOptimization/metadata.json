@@ -1,0 +1,17 @@
+{
+  "entry_id": "-1ZnSRdga3cZ8QeUQ7_wOjoATSvs",
+  "upload_id": "dMfBHGBCS2-ihJVEGuaHAA",
+  "mainfile": "Unravelling_charge_carrier_mobility_in_d0-metal-based_spinels/KSc2Se4/start/vasprun.xml",
+  "main_author": "Manuel Dillenz",
+  "system": "bulk",
+  "structural_type": "bulk",
+  "workflow_name": "GeometryOptimization",
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic",
+    "dos_electronic_new",
+    "geometry_optimization"
+  ],
+  "processed": true,
+  "processing_errors": []
+}

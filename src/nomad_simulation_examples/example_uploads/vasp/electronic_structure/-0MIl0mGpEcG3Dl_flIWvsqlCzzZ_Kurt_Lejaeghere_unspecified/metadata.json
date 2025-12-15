@@ -1,0 +1,15 @@
+{
+  "entry_id": "-0MIl0mGpEcG3Dl_flIWvsqlCzzZ",
+  "upload_id": "c68R79YPT8CQnTDestwSSQ",
+  "mainfile": "vol0.94/vasprun.xml",
+  "main_author": "Kurt Lejaeghere",
+  "system": "bulk",
+  "structural_type": "bulk",
+  "workflow_name": null,
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic"
+  ],
+  "processed": true,
+  "processing_errors": []
+}

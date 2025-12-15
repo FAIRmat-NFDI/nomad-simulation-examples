@@ -1,0 +1,17 @@
+{
+  "entry_id": "--NYeXaCw9nO9m8UK95WZGuRE82A",
+  "upload_id": "4AKh_pFmSbyUoWphewbpqQ",
+  "mainfile": "monomers_input_expanded/LDA/Low/4/50_Sn/POTCAR_d/band_structure/vasprun.xml",
+  "main_author": "Oliver Hofmann",
+  "system": "bulk",
+  "structural_type": "bulk",
+  "workflow_name": null,
+  "method_name": "DFT",
+  "available_properties": [
+    "band_structure_electronic",
+    "dos_electronic",
+    "electronic.band_structure_electronic.band_gap"
+  ],
+  "processed": true,
+  "processing_errors": []
+}
