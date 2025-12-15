@@ -222,6 +222,12 @@ The 12 parser test cases from `electronic-parsers` repository provide focused te
 - **malformed_time**: Tests handling of malformed time format in XML
 - **vasprun.xml.broken**: Intentionally broken XML for error handling tests
 
+## Compressed Files
+
+Two parser test cases are intentionally kept compressed to verify the parser handles compressed input formats:
+- **hle17_vasprun.xml.gz**: Tests gzip compression handling
+- **hybrid_vasprun.xml.gz**: Tests gzip compression handling
+
 ## References
 
 - Selection script: `query_nomad/script_distinct_authors_vasp.py`
