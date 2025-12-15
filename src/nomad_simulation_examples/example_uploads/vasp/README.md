@@ -16,19 +16,29 @@ This directory contains a curated collection of 25 VASP calculation examples sel
 4. **Property Diversity**: Various computed properties (electronic structure, energetics, etc.)
 
 ### Sample Composition
-- **Authors**: 25 unique main authors (from 39 available in the 500-sample)
+
+**Total: 36 test cases** combining real-world diversity with parser-specific edge cases
+
+#### NOMAD Repository Samples (24 entries)
+- **Authors**: 24 unique main authors (from 39 available in the 500-sample)
 - **Workflow Types**: 4 distinct workflows represented
   - GeometryOptimization: 6 entries
   - single_point: 6 entries
   - geometry_optimization: 3 entries
   - SinglePoint: 1 entry
-  - unspecified: 9 entries
+  - unspecified: 8 entries
 - **Structural Types**:
   - bulk: 17 entries
   - unavailable: 6 entries
   - surface: 1 entry
   - molecule / cluster: 1 entry
 - **Processing Status**: All entries successfully processed (processed=true)
+
+#### Parser Test Cases (12 entries)
+From the electronic-parsers test suite, covering:
+- Electronic structure features (5 cases): DOS, band structure, GW, hybrid functionals
+- Structural relaxation (1 case): Geometry optimization with DOS output
+- Edge cases (6 cases): Alternative pseudopotentials, boolean parsing, DFT+U, gamma-point, malformed data, broken XML
 
 ## Organization Structure
 
@@ -38,11 +48,16 @@ This test suite uses a **property-based organization** (Option 3) that groups ex
 
 ```
 vasp/
-├── electronic_structure/  # DOS, band structure calculations (18 entries)
-├── structural_relaxation/  # Geometry optimization workflows (2 entries)
-├── energetics/            # Single point energy calculations (5 entries)
-└── dynamics/              # MD, phonons, trajectories (0 entries in current sample)
+├── electronic_structure/  # DOS, band structure calculations (23 entries: 18 NOMAD + 5 parser tests)
+├── structural_relaxation/  # Geometry optimization workflows (3 entries: 2 NOMAD + 1 parser test)
+├── energetics/            # Single point energy calculations (5 entries: all NOMAD)
+├── dynamics/              # MD, phonons, trajectories (0 entries)
+└── other/                 # Edge cases and parser-specific tests (6 parser test entries)
 ```
+
+**Entry naming convention:**
+- NOMAD entries: `{entry_id}_{author}_{workflow}/`
+- Parser tests: `parser_test_{test_name}/`
 
 ### Category Descriptions
 
@@ -81,6 +96,17 @@ Time-dependent simulations:
 - Vibrational frequencies
 
 **Purpose**: Tests time-series data parsing, trajectory handling, and thermodynamic property extraction.
+
+#### `other/`
+Edge cases and parser-specific tests:
+- Alternative pseudopotential formats
+- Boolean value parsing variations
+- DFT+U parameter handling
+- Gamma-point only calculations
+- Malformed time formats
+- Broken XML files
+
+**Purpose**: Tests parser robustness, error handling, and edge case coverage. These are critical for ensuring the parser doesn't crash on unusual or malformed inputs.
 
 ## Alternative Organizational Perspectives
 
@@ -174,12 +200,27 @@ To add new examples:
 3. Update this README with new statistics
 4. Consider if the new example represents a systematic gap (e.g., MD calculations)
 
-## Notes
+## Parser Test Cases Details
 
-- **Dynamics folder is empty**: Current sample has no MD/phonon calculations, indicating potential gap in initial selection criteria
-- **Workflow name variations**: Both CamelCase (GeometryOptimization) and snake_case (geometry_optimization) variants exist in NOMAD metadata
-- **Processing status**: All examples are successfully processed, intentionally excluding failed/problematic entries for baseline validation tests
-- **Available properties overlap**: Some entries have multiple properties (e.g., both DOS and geometry_optimization), categorized by primary purpose
+The 12 parser test cases from `electronic-parsers` repository provide focused testing of specific parsing features:
+
+### Electronic Structure (5 tests)
+- **Si_dos_band**: Separate DOS and band structure XML files
+- **Mg_bands**: Band structure with preceding static calculation
+- **Si_GW**: GW approximation calculation
+- **hle17_vasprun.xml.gz**: HLE17 functional (compressed)
+- **hybrid_vasprun.xml.gz**: Hybrid functional (compressed)
+
+### Structural Relaxation (1 test)
+- **AgAc_relax**: Geometry relaxation with OUTCAR, DOSCAR, and vasprun.xml
+
+### Edge Cases (6 tests)
+- **alternative_pseudopotentials**: AlN and F_GW pseudopotential variants
+- **booleans**: Various boolean format variations (dotted, lowercase, mixed_case, single_char)
+- **dftu**: DFT+U parameter handling (single/multi parameter, with/without INCAR)
+- **gamma**: Gamma-point only calculation
+- **malformed_time**: Tests handling of malformed time format in XML
+- **vasprun.xml.broken**: Intentionally broken XML for error handling tests
 
 ## References
 

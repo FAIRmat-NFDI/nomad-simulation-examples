@@ -1,0 +1,7 @@
+{
+  "source": "electronic-parsers test suite",
+  "original_path": "tests/data/vasp/booleans",
+  "test_case": "booleans",
+  "category": "other",
+  "purpose": "Boolean value parsing edge cases"
+}

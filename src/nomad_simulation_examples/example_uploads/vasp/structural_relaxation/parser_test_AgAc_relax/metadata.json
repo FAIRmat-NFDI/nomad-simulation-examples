@@ -1,0 +1,7 @@
+{
+  "source": "electronic-parsers test suite",
+  "original_path": "tests/data/vasp/AgAc_relax",
+  "test_case": "AgAc_relax",
+  "category": "structural_relaxation",
+  "purpose": "Geometry relaxation with DOS"
+}

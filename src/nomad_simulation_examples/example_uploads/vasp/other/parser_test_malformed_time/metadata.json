@@ -1,0 +1,7 @@
+{
+  "source": "electronic-parsers test suite",
+  "original_path": "tests/data/vasp/malformed_time",
+  "test_case": "malformed_time",
+  "category": "other",
+  "purpose": "Malformed time format handling"
+}
