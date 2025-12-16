@@ -1,0 +1,18 @@
+{
+  "entry_id": "-0yB8WfxHw4M5TVBIqP8tGYLJNUW",
+  "upload_id": "4TAag0pQSD6zbr0ri6f5TQ",
+  "mainfile": "Calculations_Doping/doping/CHE_calculations/Mo_doping/surface_with_H/Mn/3Mn/vasprun.xml",
+  "main_author": "Nawras Abidi",
+  "system": "unavailable",
+  "structural_type": "unavailable",
+  "workflow_name": [
+    "geometry_optimization"
+  ],
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic",
+    "geometry_optimization"
+  ],
+  "processed": true,
+  "processing_errors": []
+}

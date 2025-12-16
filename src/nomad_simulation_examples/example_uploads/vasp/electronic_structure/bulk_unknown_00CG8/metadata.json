@@ -1,0 +1,16 @@
+{
+  "entry_id": "-00CG8asklqXH8ltj5U1KUDJDbGC",
+  "upload_id": "fK5ECHx6RCC91uuJnCfFYQ",
+  "mainfile": "xxx_02a-00_agm004420568_spg47/GEO1_vasprun.xml.bz2",
+  "main_author": "Miguel Marques",
+  "system": "bulk",
+  "structural_type": "bulk",
+  "workflow_name": "GeometryOptimization",
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic_new",
+    "geometry_optimization"
+  ],
+  "processed": true,
+  "processing_errors": []
+}

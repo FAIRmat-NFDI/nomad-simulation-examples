@@ -1,0 +1,7 @@
+{
+  "source": "electronic-parsers test suite",
+  "original_path": "tests/data/vasp/alternative_pseudopotentials",
+  "test_case": "alternative_pseudopotentials",
+  "category": "other",
+  "purpose": "Testing various pseudopotential formats"
+}

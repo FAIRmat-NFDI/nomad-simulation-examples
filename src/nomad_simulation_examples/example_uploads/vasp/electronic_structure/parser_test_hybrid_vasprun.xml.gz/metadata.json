@@ -1,0 +1,7 @@
+{
+  "source": "electronic-parsers test suite",
+  "original_path": "tests/data/vasp/hybrid_vasprun.xml.gz",
+  "test_case": "hybrid_vasprun.xml.gz",
+  "category": "electronic_structure",
+  "purpose": "Hybrid functional calculation"
+}

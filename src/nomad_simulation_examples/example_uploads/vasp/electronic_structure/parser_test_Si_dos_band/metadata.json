@@ -1,0 +1,7 @@
+{
+  "source": "electronic-parsers test suite",
+  "original_path": "tests/data/vasp/Si_dos_band",
+  "test_case": "Si_dos_band",
+  "category": "electronic_structure",
+  "purpose": "DOS and band structure calculation"
+}

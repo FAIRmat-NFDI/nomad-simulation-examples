@@ -1,0 +1,15 @@
+{
+  "entry_id": "-0A7WmPIWzpmkR0bTFRgsZPipC0Y",
+  "upload_id": "fiwL6Uo0Qk6n2MBz268pOA",
+  "mainfile": "binaries_input_expanded/PBE/Normal/8/56_Ba/POTCAR_h_sv/single_point/vasprun.xml",
+  "main_author": "Bjoern Bieniek",
+  "system": "bulk",
+  "structural_type": "bulk",
+  "workflow_name": null,
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic"
+  ],
+  "processed": true,
+  "processing_errors": []
+}

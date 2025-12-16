@@ -1,0 +1,7 @@
+{
+  "source": "electronic-parsers test suite",
+  "original_path": "tests/data/vasp/dftu",
+  "test_case": "dftu",
+  "category": "other",
+  "purpose": "DFT+U parameter handling"
+}

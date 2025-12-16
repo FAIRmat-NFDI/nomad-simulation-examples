@@ -1,0 +1,7 @@
+{
+  "source": "electronic-parsers test suite",
+  "original_path": "tests/data/vasp/vasprun.xml.broken",
+  "test_case": "vasprun.xml.broken",
+  "category": "other",
+  "purpose": "Broken XML file handling"
+}

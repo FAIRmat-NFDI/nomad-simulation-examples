@@ -1,0 +1,15 @@
+{
+  "entry_id": "-09ugJNLJKHPBnkJ9A_b62ep4-Yb",
+  "upload_id": "DJ0LNhj7T-6aVlnF-sEA4w",
+  "mainfile": "ASD_by_DES_Inhibitor/Benchmarks/Slabs/SiO2/ENCUT/ENCUT_440/vasprun.xml",
+  "main_author": "Fabian Pieck",
+  "system": "unavailable",
+  "structural_type": "unavailable",
+  "workflow_name": "single_point",
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic"
+  ],
+  "processed": true,
+  "processing_errors": []
+}

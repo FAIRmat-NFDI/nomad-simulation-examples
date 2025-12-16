@@ -1,0 +1,17 @@
+{
+  "entry_id": "-0DIEsopv-LHZAleGy0tldLbsO9a",
+  "upload_id": "aZ9MRCeSSOiiptwxNCTOsg",
+  "mainfile": "NOMAD-upload-Matej/Ti3AlC2/phono3py/therm_calc-00028/vasprun.xml",
+  "main_author": "Ondra\u010dka Pavel",
+  "system": "unavailable",
+  "structural_type": "unavailable",
+  "workflow_name": [
+    "single_point"
+  ],
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic"
+  ],
+  "processed": true,
+  "processing_errors": []
+}

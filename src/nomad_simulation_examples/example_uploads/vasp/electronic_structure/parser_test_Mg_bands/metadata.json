@@ -1,0 +1,7 @@
+{
+  "source": "electronic-parsers test suite",
+  "original_path": "tests/data/vasp/Mg_bands",
+  "test_case": "Mg_bands",
+  "category": "electronic_structure",
+  "purpose": "Band structure with static calculation"
+}

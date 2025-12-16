@@ -1,0 +1,15 @@
+{
+  "entry_id": "-0_BYTdh-rCzUud1ZXilxc1LXMPy",
+  "upload_id": "-GMFREL2Qn2i9CvTXXUQtg",
+  "mainfile": "Pd_111_M26_CCOH/vasprun.xml",
+  "main_author": "Jun Ke",
+  "system": "unavailable",
+  "structural_type": "unavailable",
+  "workflow_name": null,
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic"
+  ],
+  "processed": true,
+  "processing_errors": []
+}

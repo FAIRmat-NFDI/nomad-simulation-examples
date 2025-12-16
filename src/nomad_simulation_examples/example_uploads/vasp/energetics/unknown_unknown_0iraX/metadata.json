@@ -1,0 +1,15 @@
+{
+  "entry_id": "-0iraXBdzBMW5Rhda0DHaab3z5yW",
+  "upload_id": "FO4ST_LkSIimpy6ggOKyvA",
+  "mainfile": "layers/functional-benchmark/PBEsurf/IEDDA/rank3/start/OUTCAR",
+  "main_author": "Jan-Niclas Luy",
+  "system": "unavailable",
+  "structural_type": "unavailable",
+  "workflow_name": [
+    "single_point"
+  ],
+  "method_name": "DFT",
+  "available_properties": [],
+  "processed": true,
+  "processing_errors": []
+}

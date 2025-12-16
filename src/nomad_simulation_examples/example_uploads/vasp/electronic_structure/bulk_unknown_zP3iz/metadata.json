@@ -1,0 +1,15 @@
+{
+  "entry_id": "--zP3iz7IkXSVZdQtNjTho8-hBdo",
+  "upload_id": "EtrSLwymR-2MRk-MLT4mRA",
+  "mainfile": "Nomad-upload/24.1.1/PBE/vasprun.xml",
+  "main_author": "Ariel Lozano",
+  "system": "bulk",
+  "structural_type": "bulk",
+  "workflow_name": null,
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic"
+  ],
+  "processed": true,
+  "processing_errors": []
+}

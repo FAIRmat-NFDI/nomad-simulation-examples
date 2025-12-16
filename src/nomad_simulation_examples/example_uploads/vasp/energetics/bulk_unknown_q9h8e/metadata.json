@@ -1,0 +1,13 @@
+{
+  "entry_id": "--q9h8e8LPnVoL0uKeKjHEh0pULH",
+  "upload_id": "Z7JjOwLNSoWt4iv-kUoj5A",
+  "mainfile": "FeCo_uploads/mp-1565_copy1_opt.vasp_subst_O-Co_V-Fe/OUTCAR",
+  "main_author": "Bo Zhao",
+  "system": "bulk",
+  "structural_type": "bulk",
+  "workflow_name": "SinglePoint",
+  "method_name": "DFT",
+  "available_properties": [],
+  "processed": true,
+  "processing_errors": []
+}

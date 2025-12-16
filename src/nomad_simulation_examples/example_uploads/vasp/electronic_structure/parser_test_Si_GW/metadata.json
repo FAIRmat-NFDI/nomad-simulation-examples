@@ -1,0 +1,7 @@
+{
+  "source": "electronic-parsers test suite",
+  "original_path": "tests/data/vasp/Si_GW",
+  "test_case": "Si_GW",
+  "category": "electronic_structure",
+  "purpose": "GW approximation calculation"
+}

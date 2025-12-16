@@ -1,0 +1,7 @@
+{
+  "source": "electronic-parsers test suite",
+  "original_path": "tests/data/vasp/hle17_vasprun.xml.gz",
+  "test_case": "hle17_vasprun.xml.gz",
+  "category": "electronic_structure",
+  "purpose": "HLE17 functional calculation"
+}

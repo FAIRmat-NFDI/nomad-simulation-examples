@@ -1,0 +1,7 @@
+{
+  "source": "electronic-parsers test suite",
+  "original_path": "tests/data/vasp/gamma",
+  "test_case": "gamma",
+  "category": "other",
+  "purpose": "Gamma-point only calculation"
+}

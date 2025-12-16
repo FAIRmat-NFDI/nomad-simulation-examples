@@ -1,0 +1,16 @@
+{
+  "entry_id": "--C5lQjL1Yvos8SUt-rAil_WoIZs",
+  "upload_id": "NLfdpujISWClUurQYEHy0Q",
+  "mainfile": "nomad_upload_thread_0/block_2018-04-25-03-39-02-223948/launcher_2018-04-25-17-40-34-705272/vasprun.xml.relax1.gz",
+  "main_author": "Materials Project",
+  "system": "bulk",
+  "structural_type": "bulk",
+  "workflow_name": "GeometryOptimization",
+  "method_name": "DFT",
+  "available_properties": [
+    "dos_electronic",
+    "geometry_optimization"
+  ],
+  "processed": true,
+  "processing_errors": []
+}
